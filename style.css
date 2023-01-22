@@ -31,7 +31,11 @@ body{
     position: absolute;
     background: linear-gradient(88.33deg, #FBA24F -7.64%, #FF1E1E 145.94%);
     box-shadow: 0px 2px 30px rgba(252, 143, 73, 0.5);
-    border-radius: 100px;
+    border-radius: 100px;   
+}
+.order:hover{
+    -webkit-transform: scale(1.1);
+    transform:scale(1.1);
 }
 .sectionone{
     display: flex;
@@ -59,8 +63,9 @@ body{
     font-size: 40px;
     color: #575757;
     width: 40%;
-    margin-top: 50%;
+    margin-top: 50%;   
 }
+
 .sectiontwo{
     display: flex;
     background-image: url(images/bg1.png);
@@ -77,20 +82,19 @@ body{
 }
 .flex-con{
     display: flex;
-    margin-left: 60px;
-    margin-right: 50px;
-    padding-left: 150px;
-    padding-right: 150px;
+    justify-content: center;
     
+
 }
 .menu-item{
     
     width: 337px;
-    margin-left: 3%;
-    margin-right: 3%;
+    margin-left: 2%;
+    margin-right: 2%;
     padding: 20px;
     border-radius: 20px;
-    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.1);
+    
     
 
 }
@@ -109,8 +113,7 @@ body{
 .menu-item:hover{
     background: linear-gradient(88.33deg, #FBA24F -7.64%, #FF1E1E 145.94%);
     color: white;
-    border-radius: 20px;
-    
+    border-radius: 20px;   
 }
 .menu-h{
     text-align: center;
@@ -131,6 +134,7 @@ body{
 
 .orange-color{
     text-align: left;
+    color: #575757;
 }
 
 .orderlist{
@@ -139,3 +143,89 @@ body{
 .men{
     color: #FBA24F;
 }
+.foodbutton{
+    
+    margin-top: 60px;
+    margin-left: 80px;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 15px 28px;
+    gap: 16px;
+    cursor: pointer;
+    position: absolute;
+    background: linear-gradient(88.33deg, #FBA24F -7.64%, #FF1E1E 145.94%);
+    box-shadow: 0px 2px 30px rgba(252, 143, 73, 0.5);
+    border-radius: 100px;
+    
+}
+
+.foodbutton:hover{
+    -webkit-transform:scale(1.1);
+    transform:scale(1.1);
+}
+.social{
+    display: flex;
+    justify-content: center;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.1);
+    margin-left: 16%;
+    margin-right: 16%;
+    margin-top: 15%;
+    margin-bottom: 20%;
+    padding: 20px;
+    border-radius: 20px;
+    
+    
+}
+
+.yt{
+    font-weight: 700;
+    font-size: 46px;
+    padding-left: 100px;
+    padding-right: 100px;    
+    color: #575757;
+}
+
+.smallp{
+    font-weight: 400;
+    font-size: 20px;
+    color: #575757;   
+}
+
+.input{
+    width:50%;
+    text-align:center;
+    margin: 0 auto;
+    padding: 5%;
+    margin-bottom: 150px;
+}
+
+input[type=text],input[type=email],input[type=tel], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    width: 105%;
+    background-color: rgba(38, 0, 255, 0.603);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #FBA24F;
+  }
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
