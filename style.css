@@ -1,5 +1,6 @@
 body{
     font-family: 'Montserrat', sans-serif;
+    margin: 0%;
 }
 
 .firsttext{
@@ -14,7 +15,7 @@ body{
     padding-bottom: 30px;
     font-weight: 400;
     font-size: 20px;
-    color: #828282;
+    color: #575757;
 }
 .order{
     font-size: 20px;
@@ -45,4 +46,96 @@ body{
     margin-left: 1%;
     padding-left: 5%;
     margin-top: 5%;
+}
+.sectiontwo img{
+    width: 40%;
+    margin-top: 15.5%;
+    margin-left: 25%;
+    margin-bottom: 0%;
+    
+}
+.about{
+    font-weight: 700;
+    font-size: 40px;
+    color: #575757;
+    width: 40%;
+    margin-top: 50%;
+}
+.sectiontwo{
+    display: flex;
+    background-image: url(images/bg1.png);
+    background-repeat: no-repeat;
+    height: 800px;
+    
+}
+
+.hungry {
+    padding-bottom: 30px;
+    font-weight: 400;
+    font-size: 20px;
+    color: #575757;
+}
+.flex-con{
+    display: flex;
+    margin-left: 60px;
+    margin-right: 50px;
+    padding-left: 150px;
+    padding-right: 150px;
+    
+}
+.menu-item{
+    
+    width: 337px;
+    margin-left: 3%;
+    margin-right: 3%;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    
+
+}
+
+.our-menu{
+    background-position: left, bottom right;
+    height: 100%;
+    
+    margin-bottom: 10%;
+}
+.our-menu img{
+    width: 337px;
+    height: 256px;
+}
+
+.menu-item:hover{
+    background: linear-gradient(88.33deg, #FBA24F -7.64%, #FF1E1E 145.94%);
+    color: white;
+    border-radius: 20px;
+    
+}
+.menu-h{
+    text-align: center;
+    margin-top: 60px;
+    font-weight: 700;
+    font-size: 40px;
+    color: #575757;
+    
+}
+.would{
+    
+    text-align: center;
+    font-weight: 400;
+    font-size: 20px;
+    color: #575757;
+    padding-bottom: 40px;
+}
+
+.orange-color{
+    text-align: left;
+}
+
+.orderlist{
+    text-align: left;
+}
+.men{
+    color: #FBA24F;
 }
