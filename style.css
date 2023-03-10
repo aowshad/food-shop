@@ -4,7 +4,7 @@ body{
 }
 
 .firsttext{
-    color: #575757;
+    color: #191724;
     font-weight: 800;
     font-size: 60px;
 }
@@ -15,7 +15,7 @@ body{
     padding-bottom: 30px;
     font-weight: 400;
     font-size: 20px;
-    color: #575757;
+    color: #191724;
 }
 .order{
     font-size: 20px;
@@ -61,7 +61,7 @@ body{
 .about{
     font-weight: 700;
     font-size: 40px;
-    color: #575757;
+    color: #191724;
     width: 40%;
     margin-top: 50%;   
 }
@@ -78,7 +78,7 @@ body{
     padding-bottom: 30px;
     font-weight: 400;
     font-size: 20px;
-    color: #575757;
+    color: #191724;
 }
 .flex-con{
     display: flex;
@@ -120,7 +120,7 @@ body{
     margin-top: 60px;
     font-weight: 700;
     font-size: 40px;
-    color: #575757;
+    color: #191724;
     
 }
 .would{
@@ -128,13 +128,13 @@ body{
     text-align: center;
     font-weight: 400;
     font-size: 20px;
-    color: #575757;
+    color: #191724;
     padding-bottom: 40px;
 }
 
 .orange-color{
     text-align: left;
-    color: #575757;
+    color: #191724;
 }
 
 .orderlist{
@@ -174,7 +174,7 @@ body{
     margin-left: 16%;
     margin-right: 16%;
     margin-top: 15%;
-    margin-bottom: 20%;
+    margin-bottom: 10%;
     padding: 20px;
     border-radius: 20px;
     
@@ -186,46 +186,130 @@ body{
     font-size: 46px;
     padding-left: 100px;
     padding-right: 100px;    
-    color: #575757;
+    color: #191724;
+    cursor: pointer;
+}
+
+.yt:hover{
+    -webkit-transform: scale(1.1);
+    transform:scale(1.1);
+    color: #FBA24F;
 }
 
 .smallp{
     font-weight: 400;
     font-size: 20px;
-    color: #575757;   
+    color: #191724;   
 }
 
-.input{
-    width:50%;
-    text-align:center;
-    margin: 0 auto;
-    padding: 5%;
-    margin-bottom: 150px;
+.fillup{
+    text-align: center;
+    color: #FBA24F;
+    
+}
+.Orderheading{
+text-align: center;
+color: #FBA24F;
+font-weight: 700;
+font-size: 40px;
 }
 
-input[type=text],input[type=email],input[type=tel], select, textarea {
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
+.lastpart{
+    display: flex;
+    background-color: #191724;
+}
+
+.form{
+    width: 30%;
+    border-style: solid;
+    border-color: #FBA24F;
+    border-radius: 20px;
+    margin-left: 15%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+
+}
+
+.MB{
+    width: 30%;
+    margin-left: 15%;
+    margin-top: 12%;
+    margin-bottom: 5%;
+}
+
+.form h1{
+    text-align: center;
+    
+}
+
+.mainform{
+    margin-left: 10%;
+    margin-bottom: 10%;
+    font-size: 20px;
+    color: #FBA24F;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    
+    
+}
+.formheader{
+    font-size: 40px;
+    color: #FBA24F;
+}
+
+input[type=text],input[type=email],input[type=tel], [type=subject], textarea {
+    width: 80%;
+    padding: 15px;
+    border-radius: 5px;
     resize: vertical;
-  }
-  
-  input[type=submit] {
-    width: 105%;
-    background-color: rgba(38, 0, 255, 0.603);
+    font-size: 16px;
+    background: #272530;
+    border: 1px solid #FBA24F;
     color: white;
-    padding: 14px 20px;
-    margin: 8px 0;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
+    outline: none;
+    
+    
   }
-  
+
+  input[type=submit] {
+    width: 85%;
+    border-style: solid;
+    border-color: #FBA24F;
+    padding: 15px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    background: none;
+    border: 1px solid #FBA24F;
+    
+    
+  }
   input[type=submit]:hover {
     background-color: #FBA24F;
+    color: white;
+    border: none;  
   }
-  label {
-    padding: 12px 12px 12px 0;
-    display: inline-block;
-  }
+#submit{
+    color: white;
+    font-size: 20px;
+}
+
+footer{
+    background: #FBA24F;
+    padding: 2%;
+}
+footer p{
+    text-align: center;
+    font-weight: bold;
+    color: #272530;
+    font-size: 20px;
+
+
+}
+.aowshad{
+    color: #272530;
+    
+}
+.cafe{
+    color:#272530;
+    
+}
